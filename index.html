@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map — Sitio Mangima, Dalirig, Manolo Fortich, Bukidnon</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="page-container">
+        <header class="map-header">
+            <h1>🗺️ Sitio Mangima, Dalirig</h1>
+            <p>Manolo Fortich · Bukidnon · Northern Mindanao</p>
+        </header>
+
+        <div id="map"></div>
+
+        <div class="info-card">
+            <h3>📍 Location Details</h3>
+            <ul>
+                <li><strong>Sitio:</strong> Mangima</li>
+                <li><strong>Barangay:</strong> Dalirig</li>
+                <li><strong>Municipality:</strong> Manolo Fortich</li>
+                <li><strong>Province:</strong> Bukidnon</li>
+                <li><strong>Coordinates:</strong> ~8.38° N, 124.72° E</li>
+            </ul>
+            <button id="centerBtn">📍 Center Map to Mangima</button>
+        </div>
+    </div>
+
+    <!-- Leaflet Map JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
